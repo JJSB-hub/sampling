@@ -44,26 +44,73 @@ The number of your chosen topic: `#`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to gather feedback from former entry and lower-level employees to identify the primary reasons for recent and potetnial resignations. The questions will focus on three key aspects: Burnout/Wellness, Work Culture, Growth and Opportunities. Findings will be used to isolate at least three key drivers of turnover and inform targeted policy and process changes to improve employee satisfaction and retention.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: All entry- and lower-level employees who left the company within the past three years (current year inclusive); approximately 1,200 individuals in total.
+
+Sampling frame: HR department records containing verified contact details (email/phone) for former entry- and lower-level employees; frame size approximately 900 with validated contacts.
+
+Sampling units: Individual employees listed in the sampling frame.
+
+Observational units: The same individuals who complete the questionnaire (one response per person).
+
+Overall sampling strategy: A full census of the 900 contactable individuals conducted via an online survey by an unique email link that anonymously submits the respondent's answers. The sampling shall be stratified by role, role level (entry/lower), office location (company has several locations) and department. Each individual shall be reminded two times via email.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How many times per week did you work overtime?
+A: once a week
+B: twice a week
+C: three times a week
+D: four times a week
+E: every weekday
+
+2. Did you conduct company work outside of business hours (this also includes weekends, holidays, and PTO)?
+A: Yes 
+B: No
+
+3.  If you selected YES in the previous question, how many instances per month did you work outside business hours?
+
+A: One instance
+B: Two to Five instances
+C: Five to Ten instances
+D: More than Ten instances
+
+
+4. On a scale of 1 to 10 where 1 is very unattainable and 10 is very attainable, how realistic did you feel your assigned tasks were in relation to their deadlines?
+
+1	2	3	4	5	6	7	8	9	10
+
+5. On a scale of 1 to 10 where 1 is very unattainable and 10 is very attainable, did you feel the company made the effort to develop an agreeable work culture? This includes employee development programs, mentorship programs, leadership activities.
+
+1	2	3	4	5	6	7	8	9	10
+
+6. How would you describe the pleasantness of the workspace during your tenure? This includes spatial quality/design, comfortable and complete workstations, access to office supplies, quality of common areas and equipment.
+
+A. Very pleasant
+B. Somewhat Pleasant
+C. Neutral
+D. Somewhat unpleasant
+E. Very unpleasant
+
+7. On a scale of 1 to 10 where 1 you strongly disagree and 10 you strongly agree, do you believe the company provided the necessary elements to succeed in your role?
+
+1	2	3	4	5	6	7	8	9	10
+
+8. On a scale of 1 to 10 where 1 you strongly disagree and 10 you strongly agree, do you believe your supervisor encouraged your growth within the company?
+
+1	2	3	4	5	6	7	8	9	10
+
+9. On a scale of 1 to 10 where 1 you strongly disagree and 10 you strongly agree, do you believe your compensation rate was in tune with your responsibilities?
+
+1	2	3	4	5	6	7	8	9	10
+
+10. If you have any additional feedback or would like to highlight the reason that made you decide to resign from the company, please use the following space to do so.
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +118,52 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: Sample survey with a cross-sectional design. The survey is based on a stratified design and employs probability sampling with stratification done at the province/census metropolitan area level. (Data sources and methodology; Sampling section)
+
+2. Sample size: Field sample of approximately 50,000 units. About 40,000 invitation letters to the electronic questionnaire were sent. An expected completion of 24,000 questionnaires was expected. (Data sources and methodology; Sampling section)
+
+3. Target population: All persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions. (Data sources and methodology; Target Population section)
+
+4. Sampling frame: This survey uses a frame that combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. (Data sources and methodology; Sampling section)
+
+5. Survey mode(s): Data are collected directly from survey respondents either through an electronic questionnaire or through CATI (computer assisted telephone interviewing). No proxy reporting is allowed. (Data sources and methodology; Data Sources section)
+
+6. Timeline: Data collection for this reference period: 2018-09-04 to 2018-12-28; Reference period: Past 12 months preceding interview date (Data sources and methodology; Data Sources section)
+
+7. Response rate: The overall response rate is 41.9%. (Data accuracy section)
+
+8. Weights: Person-level basic weight called WGHT_PER to calculate estimates of the number of persons (non-institutionalized and aged 15 or over). In addition to the estimation weights, bootstrap weights have been created for the purpose of design-based variance estimation. (Data sources and methodology; Estimation section)
+
+9. Data processing: Processing used the SSPE set of generalized processing steps and utilities to allow subject matter and survey support staff to specify and run the processing of the survey in a timely fashion with high quality outputs. (Data sources and methodology; Error detection section)
+
+10. Cleaning, imputation, etc: Except in a few cases, all imputations were made using donor records selected through a score function. Where donor imputation could not be used, mean imputation among a pool of donors was used. Lastly, a multi-step order imputation (income, volunteering variables, donations) when the other two were not applicable. (Data sources and methodology; Imputation section)
+
+11. Sources of error: 
+
+Non-sampling error - Households without telephones, as well as households with telephone services not covered by the current frame, represent a part of the target population that was excluded from the surveyed population. Solution: Survey estimates will be adjusted (i.e. weighted) to account for non-response cases. 
+
+Non-response bias - The main method used to reduce nonresponse bias involved a series of adjustments to the survey weights to account for nonresponse as much as possible. For the 2018 GSS, an additional adjustment was added where basic characteristics of non-responding households, such as income and household composition, were extracted from administrative sources and then used to model and adjust nonresponse.
+
+Coverage error - Households without telephones were therefore excluded from the survey population. Solution: Survey estimates were adjusted (weighted) to represent all persons in the target population, including those not covered by the survey frame.
+
+(Data accuracy section)
+
+12. Limitations, known biases, etc: 
+
+Low response rate: relatively modest rate of 41.9%. This raises concerns about non-response bias.
+
+Exclusion of institutionalized persons: The target population excludes full-time residents of institutions. Thus, that subgroup is not represented.
+
+Coverage of remote or non-telephone households: Some households without phone service or with unlisted numbers may be missed, possibly under-representing certain groups (e.g., lower income, remote/rural).
+
+Memory reliance: Since the survey relies on the reference period of the past 12 months preceding the interview date, respondents may induce bias by under-reporting or over reporting their estimations.
+
+Imputation limitations: Since income variables could have been imputed or derived from tax linkage for certain subsets, income estimates may factor in additional uncertainty or bias.
+
+13. Link to documentation and any additional sources used:
+
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+
 ```
 
 ## Rubric
